@@ -1,0 +1,38 @@
+@import "./styles/mixins.css";
+@import "./styles/colors.css";
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-rendering: optimizedLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+.e-overflow-auto {
+  overflow: auto;
+}
+
+.e-overflow-hidden {
+  overflow: hidden;
+}
+
+.e-scrollable {
+  overflow-y: scroll;
+}
+
+.e-hover:hover {
+  background-color: #212529 !important;
+}
+
+.sm-font {
+  font-size: 11px;
+}
