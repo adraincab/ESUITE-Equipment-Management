@@ -1,0 +1,39 @@
+{
+  "defaultSeverity": "error",
+  "experimentalDecorators": true,
+  "extends": ["tslint:recommended", "tslint-etc"],
+  "jsRules": {
+    "no-unused-expression": true
+  },
+  "rules": {
+    "no-empty": [true, "allow-empty-catch", "allow-empty-functions"],
+    "indent": [true, "spaces", 4],
+    "quotemark": [true, "double"],
+    "member-access": [false],
+    "ordered-imports": [true],
+    "no-unused-declaration": true,
+    "max-line-length": [true, 150],
+    "max-classes-per-file": [false],
+    "member-ordering": [
+      true,
+      {
+        "order": [
+          "public-static-field",
+          "public-instance-field",
+          "public-constructor",
+          "private-static-field",
+          "private-instance-field",
+          "private-constructor",
+          "public-instance-method",
+          "protected-instance-method",
+          "private-instance-method"
+        ]
+      }
+    ],
+    "interface-name": [false],
+    "arrow-parens": false,
+    "object-literal-sort-keys": false,
+    "triple-equals": true
+  },
+  "rulesDirectory": []
+}
